@@ -1,0 +1,17 @@
+DATAS
+    Representa um instante.
+    Um objeto "date" armazena o número de milissegundos desde a meia noite do dia 01/01/1970 GMT(UTC);
+    GMT= Greenwich Mean Time;
+    UTC= Coordinated Universal Time;
+    //Ou seja, uma data para um computador é lida a partir dos MILISSEGUNDOS
+   
+SimpleDateFormat
+    dd/MM/yyyy -> 06/09/2021
+    dd/MM/yyyy HH:mm:ss -> 06/09/2021 20:21:45
+        atenção ao símbolo usado para organização da data! ("/", "-", etc)
+        ex: https://www.guj.com.br/t/java-text-parseexception-unparseable-date/58269
+
+Padrão ISO 8601
+        yyyy-MM-ddThh:mm:ssZ;
+        exemplo -> 2021-09-06T20:21:45;
+        

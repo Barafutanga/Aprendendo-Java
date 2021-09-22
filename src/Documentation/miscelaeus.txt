@@ -1,0 +1,15 @@
+CONTRUTORES
+    É uma operação especial da classe, que executa no momento da instanciação do objeto.
+    Se um construtor customizado não for especificado, a classe disponibiliza o
+    construtor padrão:  | Product p = new Product(); |
+
+DATAS
+    Representa um instante.
+    Um objeto "date" armazena o número de milissegundos desde a meia noite do dia 01/01/1970 GMT(UTC);
+    GMT= Greenwich Mean Time;
+    UTC= Coordinated Universal Time;
+    //Ou seja, uma data para um computador é lida a partir dos MILISSEGUNDOS
+   
+    SimpleDateFormat
+    dd/MM/yyyy -> 06/09/2021
+    dd/MM/yyyy HH:mm:ss -> 06/09/2021 20:21:45

@@ -1,0 +1,7 @@
+https://www.devmedia.com.br/modificadores-de-acesso-do-java/27065
+
+final;
+    //serve para indicar uma constância e um valor que não se altera (final double r = 10) r não pode alterar seu valor.
+
+private;
+    //

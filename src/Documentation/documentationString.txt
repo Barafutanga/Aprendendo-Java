@@ -1,0 +1,17 @@
+FORMATAÇÃO
+    toLowerCase(); //transforma todos os caracteres para minúsculo (Abc ) -> (abc )
+    toUpperCase(); //transforma todos os caracteres para maiúsculo (Abc ) -> (ABC )
+    trim(); //elimina todos os espaçamentos em branco nas 2 extremidades da String (Abc ) -> (Abc)
+
+RECORTE
+    subString(início); //cria uma máscara e retira o n° de caracteres requisitados do valor da string
+        subString(início, fim); //cria uma máscara e salva o intervalo de caracteres requisitados do valor da string
+    
+SUBSTITUIR
+    Replace(char1, char2); //substitui o valor do char1 por char2 dentro da string (Abc)
+                                                                                   L Replace(A, c) -> (cbc)
+
+BUSCAR
+    IndexOf(); //resgata o valor da posição ocupada pelo caractere selecionado
+        (Abc Def GHI) //o primeiro caractere (A) começa valendo 0
+            IndexOf (bc) -> 1

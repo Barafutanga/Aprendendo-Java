@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch CasasBahia",
+            "request": "launch",
+            "mainClass": "CasasBahia",
+            "projectName": "Fase2_29b7d79e"
+        },
+        {
+            "type": "java",
+            "name": "Launch RectangleCalcs",
+            "request": "launch",
+            "mainClass": "RectangleCalcs",
+            "projectName": "Fase2_29b7d79e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tester",
+            "request": "launch",
+            "mainClass": "Tester",
+            "projectName": "Fase2_29b7d79e"
+        },
+        {
+            "type": "java",
+            "name": "Launch TriComparator_02",
+            "request": "launch",
+            "mainClass": "TriComparator_02",
+            "projectName": "Fase2_29b7d79e"
+        },
+        {
+            "type": "java",
+            "name": "Launch WorkerStats",
+            "request": "launch",
+            "mainClass": "WorkerStats",
+            "projectName": "Fase2_29b7d79e"
+        },
+        {
+            "type": "java",
+            "name": "Launch bancoItau",
+            "request": "launch",
+            "mainClass": "bancoItau",
+            "projectName": "Fase2_29b7d79e"
+        },
+        {
+            "type": "java",
+            "name": "Launch debug",
+            "request": "launch",
+            "mainClass": "debug",
+            "projectName": "Fase2_29b7d79e"
+        },
+        {
+            "type": "java",
+            "name": "Launch moneyExchanger",
+            "request": "launch",
+            "mainClass": "moneyExchanger",
+            "projectName": "Fase2_29b7d79e"
+        },
+        {
+            "type": "java",
+            "name": "Launch notaSemetral",
+            "request": "launch",
+            "mainClass": "notaSemetral",
+            "projectName": "Fase2_29b7d79e"
+        }
+    ]
+}

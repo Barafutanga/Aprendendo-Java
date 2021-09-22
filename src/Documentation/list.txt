@@ -1,0 +1,17 @@
+TAMANHO DA LISTA
+    size();
+
+INSERIR ELEMENTO NA LISTA
+    add(obj), add(int,obj);
+
+REMOVER ELEMENTO(S) DA LISTA
+    remove(obj), remove(int), removeIf(Predicate);
+
+ENCONTRAR POSIÇÃO DE ELEMENTO
+    indexOf(obj), lastIndexOf(obj);
+
+FILTRAR LISTA COM BASE EM PREDICADO
+    List<Integer> result = list.stream().filter(x -> x > 4).collect(Collectors.tolist());
+
+ENCONTRAR PRIMEIRA OCORRÊNCIA COM BASE EM PREDICADO
+    Integer result = list.stream().filter(x -> x > 4).findFirst().orElse(null);

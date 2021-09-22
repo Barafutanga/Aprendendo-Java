@@ -1,0 +1,48 @@
+System.out.printf()
+    %f  =  ponto flutuante
+    %d  =  inteiro
+    %s  =  texto
+    %n  =  quebra de linha
+
+OPERADORES MATEMÁTICOS
+    +  =  adição
+    -  =  subtração
+    *  =  multiplicação
+    /  =  divisão
+    %  =  resto
+
+OPERADORES COMPARATIVOS
+    <  =  menor que
+    >  =  maior que
+    <=  =  menor igual a
+    >=  =  maior igual a
+    ==  =  igual a
+    !=  =  diferente de
+
+OPERADORES LÓGICOS
+    && = e
+    || = ou
+    ! = não
+
+OPERADORES DE ATRIBUIÇÃO CUMULATIVA
+    //diminuem a linha do código em alguns caracteres
+        a += b  ->  a = a + b
+        a -= b  ->  a = a - b 
+        a *= b  ->  a = a * b
+        a /= b  ->  a = a / b
+        a %= b  ->  a = a % b
+
+EXPRESSÃO CONDICIONAL TERNÁRIA
+    //testa um valor/condição e gera 2 valores de saída (se verdadeiro/ se falso)
+    (condição) ? valor_se_verdadeiro : valor_se_falso
+        (0 > 1) ? verdadeiro : falso ------> falso
+        (1 > 0) ? verdadeiro : falso ------> verdadeiro
+
+ESTRUTURA REPETITIVA DO-WHILE
+    //executa um comando enquanto a condição for verdadeira. Detalhe: nesta estrutura,
+    o comando é lido antes da condição, com isso, o comando será obrigado a gerar output
+    ao menos uma vez.
+        do {
+            comando 1
+            comando 2
+        } while (condição);

@@ -1,0 +1,15 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Program Files (x86)\\Common Files\\Oracle\\RefLib\\commons-logging-1.1.1.jar",
+        "c:\\Program Files (x86)\\Common Files\\Oracle\\RefLib\\java-util-1.9.2.jar",
+        "c:\\Program Files (x86)\\Common Files\\Oracle\\RefLib\\json-io-2.5.2.jarw",
+        "c:\\Program Files (x86)\\Common Files\\Oracle\\RefLib\\CommonsLogging.jar",
+        "c:\\Program Files (x86)\\Common Files\\Oracle\\RefLib\\JavaUtil.jar",
+        "c:\\Program Files (x86)\\Common Files\\Oracle\\RefLib\\JsonIo.jar"
+    ],
+    "java.project.sourcePaths": [
+        "Fase2",
+        "."
+    ]
+}
