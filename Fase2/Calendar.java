@@ -3,7 +3,7 @@ import java.text.ParseException;
 import java.util.Date;
 import java.util.TimeZone;
 
-public class date{
+public class Calendar{
     public static void main(String[] args) throws ParseException {
         
         SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");

@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.text.ParseException;
 import Entities.clientRoomRent;
 
-public class trivago {
+public class Trivago {
     public static void main(String[] args) throws ParseException {
     Scanner sc = new Scanner(System.in);
     clientRoomRent[] vect = new clientRoomRent[10];

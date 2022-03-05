@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 
-public class dateCalendar {
+public class DateCalendar {
     public static void main(String[] args) throws ParseException {
         
         //ISO 8601

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import Entities.vectorProduct;
 
-public class vector2 {
+public class Vector2 {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 

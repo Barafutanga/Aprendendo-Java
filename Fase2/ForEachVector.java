@@ -1,4 +1,4 @@
-public class forEachVector {
+public class ForEachVector {
     public static void main(String[] args) {
         String vect[] = new String[] {"Maria", "Bob", "Alex", "Juan", "Marcão", "Brenda"};
     

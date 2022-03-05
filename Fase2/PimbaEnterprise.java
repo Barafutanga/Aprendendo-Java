@@ -5,7 +5,7 @@ import java.util.Locale;
 
 import Entities.pimbaWorker;
 
-public class pimbaEnterprise {
+public class PimbaEnterprise {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     Locale.setDefault(Locale.US);

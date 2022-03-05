@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch dateCalendar",
+            "request": "launch",
+            "mainClass": "dateCalendar",
+            "projectName": "Aprendendo-Java_9e360acc"
+        },
+        {
+            "type": "java",
             "name": "Launch Java Program",
             "request": "launch",
             "mainClass": ""

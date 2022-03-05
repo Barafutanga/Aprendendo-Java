@@ -2,7 +2,7 @@ import java.util.Scanner;
 import Entities.currencyConverter;
 import java.util.Locale;
 
-public class moneyExchanger {
+public class MoneyExchanger {
     public static void main(String[] args) {
        
         Scanner sc = new Scanner(System.in);
