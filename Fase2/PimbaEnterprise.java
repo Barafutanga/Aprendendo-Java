@@ -1,16 +1,15 @@
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Locale;
-
-import Entities.pimbaWorker;
+import PimbaWorker;
 
 public class PimbaEnterprise {
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     Locale.setDefault(Locale.US);
 
-    List<pimbaWorker> list = new ArrayList<>();
+    List<PimbaWorker> list = new ArrayList<>();
 
     System.out.print("How many employees will be implemented? ");
     int n = sc.nextInt();
@@ -30,12 +29,12 @@ public class PimbaEnterprise {
     System.out.print("Sallary: ");
     double sallary = sc.nextDouble();
 
-    list.add(new pimbaWorker(name, id, sallary));
+    list.add(new PimbaWorker(name, id, sallary));
     }
 
     System.out.println("Enter employee ID that will have increased sallary:");
     int id = sc.nextInt();
-    pimbaWorker emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
+    PimbaWorker emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
         if (emp == null) {
             System.out.println("This ID does not exist!");
         } else {
@@ -44,7 +43,7 @@ public class PimbaEnterprise {
             emp.increaseSallary(percetage);
         }
     System.out.println("List of employees: ");
-    for (pimbaWorker obj : list) {
+    for (PimbaWorker obj : list) {
         System.out.println(obj);
     }
 
@@ -52,8 +51,9 @@ public class PimbaEnterprise {
     sc.close();
     }
 
-    public static boolean hasId(List<pimbaWorker> list, int id) {
+    public static boolean hasId(List<PimbaWorker> list, int id) {
         return false;
     }
     
 }
+*/

@@ -1,15 +1,13 @@
-package Entities;
-
-public class pimbaWorker {
+public class PimbaWorker {
 
     private String name;
     private Integer id;
     private Double sallary;
 
-    public pimbaWorker(){
+    public PimbaWorker(){
     }
 
-    public pimbaWorker(String name, Integer id, Double sallary){
+    public PimbaWorker(String name, Integer id, Double sallary){
         this.name = name;
         this.id = id;
         this.sallary = sallary;
